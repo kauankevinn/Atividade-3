@@ -7,5 +7,11 @@ public class App {
         System.out.println(moto.empinar());
         System.out.println(moto.cortarGiro());
 
+        Carro carro = new Carro("4 rodas", 684513 , "Fiat", true);
+
+        System.out.println(carro.abastecer());
+        System.out.println(carro.buzinar());
+        System.out.println(carro.drift());
+
     }
 }
